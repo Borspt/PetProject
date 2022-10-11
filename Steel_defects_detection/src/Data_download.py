@@ -29,6 +29,7 @@ else:
     print('Unpacking dataset')
     with zipfile.ZipFile('data/raw/defects-class-and-location.zip', 'r') as zip_file:
         zip_file.extractall('data/raw/')
+    print('Dataset unpacked')
 
 
 
