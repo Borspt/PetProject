@@ -3,14 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="9a1e244d-6938-4dcd-8a81-cd66eb760a69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Steel_defects_detection/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/notebooks/Dataset_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Steel_defects_detection/notebooks/Dataset_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/Data_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steel_defects_detection/src/data_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/data/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/data/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/data/make_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/docs/commands.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/docs/getting-started.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/mmdetection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/models/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/notebooks/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/notebooks/Dataset_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/references/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/reports/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/reports/figures/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/data_download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/features/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/features/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/features/build_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/models/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/models/predict_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/models/train_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/visualization/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/visualization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/src/visualization/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/test_environment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steel_defects_detection/tox.ini" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +46,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2G5q55JQpBYj281rZqQpSUYE3ad" />
+  <component name="ProjectId" id="2GEFewmsxdeqgDoJyny51wWHN0K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,57 +58,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Steel_defects_detection/requirements.txt" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
-  </component>
-  <component name="RunManager">
-    <configuration name="data_download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PetProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Steel_defects_detection/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Steel_defects_detection/src/data_download.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.data_download" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9a1e244d-6938-4dcd-8a81-cd66eb760a69" name="Changes" comment="" />
-      <created>1665688605882</created>
+      <created>1665945943036</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665688605882</updated>
+      <updated>1665945943036</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
