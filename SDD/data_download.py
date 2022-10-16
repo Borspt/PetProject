@@ -5,15 +5,15 @@ import zipfile
 
 data_paths = [Path('../data/raw'), Path('../data/interim'), Path('../data/processed')]
 
-for dir in data_paths:
-    if not dir.exists:
-        print(f'Creating directory \'{dir}\'...')
-        dir.mkdir()
+for data_dir in data_paths:
+    if not data_dir.exists():
+        print(f'Creating directory \'{data_dir}\'...')
+        data_dir.mkdir(parents=True, exist_ok=True)
 
     else:
-        print(f'Directory \'{dir}\' exists')
+        print(f'Directory \'{data_dir}\' exists')
 
-if not os.path.exists('data/raw/defects-class-and-location.zip'):
+if not os.path.exists('../data/raw/defects-class-and-location.zip'):
     print('Downloading dataset...')
     api = KaggleApi()
     api.authenticate()
@@ -23,13 +23,13 @@ else:
     print('Dataset has already been downloaded')
 
 
-if Path('data/raw/images').exists() and Path('data/raw/label').exists():
+if Path('../data/raw/images').exists() and Path('../data/raw/label').exists():
     print('Dataset has already been unpacked')
 
 else:
     print('Unpacking dataset...')
-    with zipfile.ZipFile('data/raw/defects-class-and-location.zip', 'r') as zip_file:
-        zip_file.extractall('data/raw/')
+    with zipfile.ZipFile('../data/raw/defects-class-and-location.zip', 'r') as zip_file:
+        zip_file.extractall('../data/raw/')
     print('Dataset unpacked')
 
 
